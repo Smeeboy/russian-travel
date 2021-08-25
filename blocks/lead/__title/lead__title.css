@@ -1,0 +1,29 @@
+.lead__title {
+    display: block;
+    margin: 0 auto;
+    padding-top: 56px;
+    max-width: 720px;
+    color:white; 
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+  .lead__title {
+   padding-top: 48px;
+   font-weight: bold;
+   font-size: 96px;
+   line-height: 100px;
+ }
+}
+
+@media (max-width: 320px) {
+    .lead__title {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 44px;
+   }
+ }
+/* Padding Top здесь больше переопределять не нужно*/

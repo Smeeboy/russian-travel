@@ -1,0 +1,11 @@
+.lead {
+  color: white;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .lead {
+    margin-left: -24px;
+    margin-right: -24px;
+  }
+}
