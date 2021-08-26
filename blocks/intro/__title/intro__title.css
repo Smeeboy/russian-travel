@@ -5,18 +5,19 @@
   line-height: 35px;
 }
 
-.intro__title {
-  padding-top: 92px;
-  font-size: 54px;
-  line-height: 58px;
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .intro__title {
     padding-top: 88px;
     font-size: 54px;
     line-height: 58px;
   }
 }
+
+@media (min-width: 1024px) {
+  .intro__title {
+    padding-top: 92px;
+    font-size: 54px;
+    line-height: 58px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
