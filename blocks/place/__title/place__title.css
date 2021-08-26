@@ -1,5 +1,4 @@
 .place__title {
-  /* max-width: 288px; */
   font-size: 32px;
   line-height: 35px;
   font-weight: 900;
@@ -14,7 +13,6 @@
 
 @media (min-width: 768px) {
   .place__title {
-    /* max-width: 340px; */
     font-size: 42px;
     line-height: 46px;
   }
@@ -22,21 +20,7 @@
 
 @media (min-width: 1024px) {
   .place__title {
-    /* max-width: 440px; */
-    /* list-style: none; */
     font-size: 72px;
     line-height: 76px;
-    /* max-width: 460px; */
   }
 }
-
-/* .place__title {
-  list-style: none;
-  font-size: 72px;
-  line-height: 76px;
-  max-width: 460px;
-  margin: 0;
-} */
-
-
-

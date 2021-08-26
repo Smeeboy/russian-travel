@@ -1,14 +1,12 @@
 .footer {
-    color:white;
-    padding-top: 92px;
-    padding-bottom: 24px;
+  color: white;
+  padding-top: 92px;
+  padding-bottom: 24px;
 }
-
 
 @media screen and (min-width: 768px) {
-    .footer{
-        padding-top: 64px;
-        display: flex;
-    }
+  .footer {
+    padding-top: 64px;
+    display: flex;
+  }
 }
-  

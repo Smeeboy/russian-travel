@@ -1,6 +1,5 @@
 .intro__title {
   padding-top: 64px;
-  /* max-width: 288px; */
   font-weight: 900;
   font-size: 32px;
   line-height: 35px;
@@ -10,7 +9,6 @@
   padding-top: 92px;
   font-size: 54px;
   line-height: 58px;
-  /* width: 690px; */
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -18,11 +16,7 @@
 @media (max-width: 768px) {
   .intro__title {
     padding-top: 88px;
-    /* font-weight: bold; */
     font-size: 54px;
     line-height: 58px;
-    /* max-width: 720px; */
   }
 }
-
-/* Padding Top здесь больше переопределять не нужно*/

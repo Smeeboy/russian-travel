@@ -1,20 +1,16 @@
-
-.footer__copyright{
-    padding-top: 48px;
-    padding-bottom: 24px;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 18px;
-    align-self: flex-start;
-    margin: 0;
+.footer__copyright {
+  padding-top: 48px;
+  padding-bottom: 24px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  align-self: flex-start;
+  margin: 0;
 }
 
 @media screen and (min-width: 768px) {
-    .footer__copyright {
-        padding: 0;
-        line-height: 16px;
-        
-    }
+  .footer__copyright {
+    padding: 0;
+    line-height: 16px;
+  }
 }
-
-  

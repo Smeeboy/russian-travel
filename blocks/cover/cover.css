@@ -19,13 +19,6 @@
   padding-top: calc(740 / 1184 * 100%);
 }
 
-/* @media (max-width: 1024px) {
-  .cover {
-   margin-left: -48px;
-   margin-right: -48px;
- }
-} */
-
 @media (min-width: 768px) {
   .cover {
     /* margin-left: -24px;
@@ -35,7 +28,7 @@
 }
 @media (max-width: 320px) {
   .cover {
-   margin-top: 66px;
-   height: auto;
- }
+    margin-top: 66px;
+    height: auto;
+  }
 }
