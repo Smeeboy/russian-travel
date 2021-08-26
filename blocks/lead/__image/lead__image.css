@@ -1,8 +1,11 @@
 .lead__image {
   padding-top: 64px;
-  height: 615px;
-  width: 100%;
+  /* height: 615px; */
   margin: 0 auto;
+}
+
+.lead__image img {
+  max-width: 100%;
 }
 
 @media (max-width: 1024px) {
@@ -11,7 +14,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 768px) {
   .lead__image {
     padding-top: 40px;
     margin-left: -16px;
@@ -19,4 +22,3 @@
     height: auto;
   }
 }
-

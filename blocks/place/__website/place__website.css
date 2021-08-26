@@ -1,4 +1,26 @@
 .place__website {
+  text-decoration: none;
+  /* grid-row-start: 1;
+  grid-column-start: 2; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+@media (max-width: 479px) {
+  .place__website {
+    padding-bottom: 32px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .place__website {
+    order: 2;
+  }
+}
+
+/* .place__website {
   grid-row-start: 1;
   grid-column-start: 2;
   display: flex;
@@ -23,4 +45,4 @@
     max-width: 288px;
     order: 2;
   }
-}
+} */
