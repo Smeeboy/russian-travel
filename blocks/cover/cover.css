@@ -5,10 +5,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  /* height: 740px; */
-
-  /* margin-left: -16px;
-  margin-right: -16px; */
 }
 
 .cover::after {
@@ -21,14 +17,20 @@
 
 @media (min-width: 768px) {
   .cover {
-    /* margin-left: -24px;
-    margin-right: -24px; */
     margin-top: 90px;
   }
 }
-@media (max-width: 320px) {
+@media (min-width: 320px) {
   .cover {
     margin-top: 66px;
     height: auto;
   }
 }
+
+@media (min-width: 1280px) {
+  .cover {
+    max-width: 1184px;
+    margin: 0 auto;
+  }
+}
+

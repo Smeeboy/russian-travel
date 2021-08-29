@@ -4,13 +4,12 @@
   flex-direction: column;
   margin: 0;
   margin-right: auto;
-  gap: 24px;
+  gap: 32px;
   padding: 0;
 }
 
 @media screen and (min-width: 768px) {
   .footer__links {
     flex-direction: row;
-    margin-right: auto;
   }
 }

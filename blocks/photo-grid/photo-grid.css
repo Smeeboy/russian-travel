@@ -1,7 +1,7 @@
 .photo-grid {
   display: grid;
-  padding-top: 92px;
-  grid-gap: 16px;
+  padding-top: 64px;
+  grid-gap: 12px;
   justify-content: center;
 }
 
@@ -10,10 +10,17 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+@media (min-width: 768px) {
+  .photo-grid {
+    padding-top: 88px;
+    grid-gap: 16px;
+  }
+}
 
 @media (min-width: 1024px) {
   .photo-grid {
     grid-template-columns: repeat(3, 1fr);
+    padding-top: 92px;
   }
 }
 
