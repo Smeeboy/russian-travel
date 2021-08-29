@@ -15,15 +15,22 @@
   padding-top: calc(740 / 1184 * 100%);
 }
 
+@media (min-width: 320px) {
+  .cover {
+    margin-top: 66px;
+    height: auto;
+  }
+}
+
 @media (min-width: 768px) {
   .cover {
     margin-top: 90px;
   }
 }
-@media (min-width: 320px) {
+
+@media (min-width: 768px) {
   .cover {
-    margin-top: 66px;
-    height: auto;
+    margin-top: 92px;
   }
 }
 
