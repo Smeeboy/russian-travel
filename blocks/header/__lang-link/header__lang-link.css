@@ -11,7 +11,7 @@
 .header__lang-link_active:hover {
   text-decoration: underline;
   opacity: .8;
-  transition: .4s ease-in-out;
+  transition: .1s ease-in-out;
 }
 
 .header__lang-link:last-child {

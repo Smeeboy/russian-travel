@@ -9,5 +9,5 @@
 
 .place__url-heading:hover {
   opacity: .8;
-  transition: .4s ease-in-out;
+  transition: .1s ease-in-out;
 }
