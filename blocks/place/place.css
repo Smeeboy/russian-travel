@@ -1,9 +1,8 @@
 @media screen and (max-width: 767px) {
   .place + .place {
-  margin-top: 50px;
+    margin-top: 50px;
   }
 }
-
 
 .place:last-of-type {
   padding-bottom: 0px;
@@ -17,7 +16,6 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr max-content;
   }
-  
 }
 
 @media screen and (min-width: 1024px) {

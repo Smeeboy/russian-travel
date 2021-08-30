@@ -5,9 +5,5 @@
   color: #aaa;
   margin: 0;
   text-decoration: none;
-}
-
-.place__url-heading:hover {
-  opacity: .8;
-  transition: .1s ease-in-out;
+  letter-spacing: 2px;
 }
