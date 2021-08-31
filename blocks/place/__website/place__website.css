@@ -10,11 +10,6 @@
   .place__website {
     padding-left: 16px;
     padding-right: 16px;
-  }
-}
-
-@media (max-width: 767px) {
-  .place__website {
     padding-bottom: 32px;
   }
 }

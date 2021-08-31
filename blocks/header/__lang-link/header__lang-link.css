@@ -5,6 +5,7 @@
   color: white;
   font-size: 18px;
   line-height: 20px;
+  text-decoration: none;
 }
 
 .header__lang-link:hover {
@@ -14,7 +15,6 @@
 
 .header__lang-link:last-child {
   padding-right: 0;
-  text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
